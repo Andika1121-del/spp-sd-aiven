@@ -10,7 +10,7 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/spp.php"
+      "dest": "/index.php"
     },
     {
       "src": "/(.*)",
