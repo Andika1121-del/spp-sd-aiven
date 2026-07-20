@@ -18,7 +18,7 @@
 <body class="landing-page">
 
     <main class="landing-container">
-        <!-- Hero Section (hanya satu) -->
+        <!-- Hero Section -->
         <div class="hero-section" style="text-align: center; display: flex; flex-direction: column; align-items: center; width: 100%; margin: 0 auto 40px auto;">
             <div class="logo-icon" style="margin: 0 auto 16px;">
                 <i class="fas fa-graduation-cap"></i>
@@ -60,10 +60,10 @@
                     <p>Khusus untuk Administrator, Bendahara, dan Kepala Sekolah untuk mengelola data transaksi dan laporan keuangan.</p>
                 </div>
                 <div class="card-actions">
-                    <button onclick="confirmLogin()" class="btn btn-outline w-100">
+                    <a href="login.php" class="btn btn-outline w-100" style="text-decoration: none; display: inline-block; text-align: center;">
                         <i class="fas fa-sign-in-alt"></i> Masuk ke Sistem
-                    </button>
-                    <span class="link-lupa-pw" onclick="openLupaPassword()">
+                    </a>
+                    <span class="link-lupa-pw" onclick="openLupaPassword()" style="cursor: pointer; display: block; margin-top: 10px;">
                         <i class="fas fa-key"></i> Lupa Password?
                     </span>
                 </div>
@@ -76,7 +76,7 @@
     </main>
 
     <!-- ===== MODAL KONFIRMASI CEK MANDIRI ===== -->
-    <div id="modalKonfirmasiCek" class="modal">
+    <div id="modalKonfirmasiCek" class="modal" style="display: none;">
         <div class="modal-content">
             <div class="modal-header">
                 <h3><i class="fas fa-search"></i> Konfirmasi Pencarian</h3>
@@ -94,7 +94,7 @@
     </div>
 
     <!-- ===== MODAL LUPA PASSWORD ===== -->
-    <div id="modalLupaPassword" class="modal">
+    <div id="modalLupaPassword" class="modal" style="display: none;">
         <div class="modal-content">
             <div class="modal-header">
                 <h3><i class="fas fa-key"></i> Lupa Password</h3>
@@ -119,6 +119,38 @@
 
     <!-- JS Eksternal -->
     <script src="assets/js/main.js"></script>
+    <script>
+        function confirmCekMandiri() {
+            const nisInput = document.querySelector('input[name="nis"]').value;
+            if (nisInput.trim() === '') {
+                alert('Silakan masukkan NIS atau Nama Siswa terlebih dahulu.');
+                return;
+            }
+            document.getElementById('modalKonfirmasiCek').style.display = 'flex';
+        }
+
+        function submitCekMandiri() {
+            document.getElementById('formCekMandiri').submit();
+        }
+
+        function openLupaPassword() {
+            document.getElementById('modalLupaPassword').style.display = 'flex';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+
+        function prosesLupaPassword() {
+            const input = document.getElementById('inputLupa').value;
+            if (input.trim() === '') {
+                alert('Silakan masukkan email atau username!');
+                return;
+            }
+            alert('Instruksi reset password telah dikirim jika akun terdaftar.');
+            closeModal('modalLupaPassword');
+        }
+    </script>
 </body>
 
 </html>
