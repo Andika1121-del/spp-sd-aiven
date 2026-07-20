@@ -3,7 +3,7 @@
 /** @var mysqli $conn */ // Pastikan koneksi database sudah tersedia melalui $conn
 ob_start(); // Mengunci output buffer agar redirect header() anti-error
 session_start();
-include '../koneksi.php';
+include_once __DIR__ . '/../koneksi.php';
 
 if (!isset($_SESSION['username'])) {
     header("Location: ../index.php");
