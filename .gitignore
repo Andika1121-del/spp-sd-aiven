@@ -2,7 +2,7 @@
 .env
 
 # Dependencies
-vendor/
+# vendor/
 
 # IDE
 .vscode/
