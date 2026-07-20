@@ -1,0 +1,11 @@
+2026-05-10 12:15:33 - ID Siswa: 1, Bulan: Januari, Tahun: 2026, Nominal: 100
+2026-05-10 12:15:59 - ID Siswa: 1, Bulan: Januari, Tahun: 2026, Nominal: 200000
+2026-05-10 16:46:14 - ID Siswa: 2, Bulan: Mei, Tahun: 2026, Input Asli: 200.000, Hasil Bersih: 200000
+2026-05-10 16:46:26 - ID Siswa: 1, Bulan: Mei, Tahun: 2026, Input Asli: 50.000, Hasil Bersih: 50000
+2026-05-10 16:53:50 - ID Siswa: 1, Bulan: Mei, Tahun: 2026, Input Asli: 50000, Hasil Bersih: 50000
+2026-05-10 17:04:53 - ID Siswa: 1, Bulan: Mei, Tahun: 2026, Input Asli: 20000, Hasil Bersih: 20000
+2026-05-10 17:05:21 - ID Siswa: 1, Bulan: Maret, Tahun: 2026, Input Asli: 200000, Hasil Bersih: 200000
+2026-05-10 17:39:41 - ID Siswa: 1, Bulan: Mei, Tahun: 2026, Input Asli: 120000, Hasil Bersih: 120000
+2026-05-10 17:42:43 - ID Siswa: 1, Bulan: Juli, Tahun: 2026, Input Asli: 20000, Hasil Bersih: 20000
+2026-05-11 04:43:54 - ID Siswa: 4, Bulan: Mei, Tahun: 2026, Input Asli: 200000, Hasil Bersih: 200000
+2026-05-11 19:04:06 - ID Siswa: 3, Bulan: Mei, Tahun: 2026, Input Asli: 200000, Hasil Bersih: 200000

@@ -1,0 +1,26 @@
+[2026-07-16 20:31:40] Notifikasi diterima: order_id=SPP-14-1784233894, status=pending, amount=12000.00
+[2026-07-16 20:31:40] Status update untuk transaksi: pending
+[2026-07-16 20:31:40] Notifikasi diproses sukses untuk order_id SPP-14-1784233894
+[2026-07-16 20:31:46] Notifikasi diterima: order_id=SPP-14-1784233894, status=settlement, amount=12000.00
+[2026-07-16 20:31:46] Status update untuk transaksi: success
+[2026-07-16 20:31:46] Tagihan 14 diupdate: nominal_dibayar=122000, status=Cicil
+[2026-07-16 20:37:16] Notifikasi diterima: order_id=SPP-15-1784234231, status=pending, amount=12000.00
+[2026-07-16 20:37:16] Status update untuk transaksi: pending
+[2026-07-16 20:37:16] Notifikasi diproses sukses untuk order_id SPP-15-1784234231
+[2026-07-16 20:37:29] Notifikasi diterima: order_id=SPP-15-1784234231, status=settlement, amount=12000.00
+[2026-07-16 20:37:29] Status update untuk transaksi: success
+[2026-07-16 20:37:29] Tagihan 15 diupdate: nominal_dibayar=12000, status=Cicil
+[2026-07-16 20:37:29] Pembayaran berhasil ditambahkan ke tabel pembayaran: id_tagihan=15, jumlah=12000
+[2026-07-16 20:37:29] Notifikasi diproses sukses untuk order_id SPP-15-1784234231
+[2026-07-17 07:56:35] Notifikasi diterima: order_id=SPP-3-1784274984, status=pending, amount=10000.00
+[2026-07-17 07:56:35] Transaksi dengan order_id SPP-3-1784274984 tidak ditemukan di database
+[2026-07-17 07:56:42] Notifikasi diterima: order_id=SPP-3-1784274984, status=settlement, amount=10000.00
+[2026-07-17 07:56:42] Transaksi dengan order_id SPP-3-1784274984 tidak ditemukan di database
+[2026-07-17 07:57:38] Notifikasi diterima: order_id=SPP-3-1784274984, status=pending, amount=10000.00
+[2026-07-17 07:57:38] Transaksi dengan order_id SPP-3-1784274984 tidak ditemukan di database
+[2026-07-17 07:57:42] Notifikasi diterima: order_id=SPP-3-1784274984, status=settlement, amount=10000.00
+[2026-07-17 07:57:42] Transaksi dengan order_id SPP-3-1784274984 tidak ditemukan di database
+[2026-07-17 07:58:41] Notifikasi diterima: order_id=SPP-3-1784274984, status=pending, amount=10000.00
+[2026-07-17 07:58:41] Transaksi dengan order_id SPP-3-1784274984 tidak ditemukan di database
+[2026-07-17 07:58:44] Notifikasi diterima: order_id=SPP-3-1784274984, status=settlement, amount=10000.00
+[2026-07-17 07:58:44] Transaksi dengan order_id SPP-3-1784274984 tidak ditemukan di database

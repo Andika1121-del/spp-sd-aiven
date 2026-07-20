@@ -1,0 +1,10 @@
+[2026-07-16 18:10:01] === Notifikasi baru diterima ===
+[2026-07-16 18:10:01] Raw input diterima: {"status_message":"midtrans payment notification","status_code":"200","gross_amount":"2000.00","payment_type":"dana","order_id":"SPP-14-1784223378","transaction_id":"A120260716173623Ano7MxAYI8ID","transaction_status":"settlement","merchant_id":"M959023968","currency":"IDR","transaction_time":"2026-07-17 00:36:23","signature_key":"1ee9bc71892a2290cb8cea73604bee493ef2b90ddb2dcd9f30df29398f30bafa017b42ecc6b31b70f827aa13bb59e7cdc733d9d7976c7cb95b99aba228545206","settlement_time":"2026-07-17 00:36:43","expiry_time":"2026-07-17 00:51:23","fraud_status":"accept","customer_details":{"phone":"+6285845826860","full_name":"test 2","email":"siswa@sd-mujahidin.sch.id"}}
+[2026-07-16 18:10:01] SUKSES: Object Notification berhasil dibuat.
+[2026-07-16 18:10:01] Data notifikasi -> order_id: A120260716173623Ano7MxAYI8ID | transaction_status: settlement | payment_type: dana | fraud_status: accept
+[2026-07-16 18:10:01] Status settlement terdeteksi. is_success = true.
+[2026-07-16 18:10:01] Nilai is_success setelah pengecekan: TRUE
+[2026-07-16 18:10:01] Data transaksi_midtrans ditemukan: TIDAK DITEMUKAN
+[2026-07-16 18:10:01] BERHENTI: order_id A120260716173623Ano7MxAYI8ID tidak ditemukan di tabel transaksi_midtrans.
+[2026-07-16 18:10:01] === Selesai memproses notifikasi ===
+
