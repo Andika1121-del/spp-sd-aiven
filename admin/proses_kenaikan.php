@@ -1,5 +1,5 @@
 <?php
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();

@@ -2,7 +2,7 @@
 
 /** @var mysqli $conn */
 session_start();
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 if (!isAdmin()) {
     header("Location: ../index.php");

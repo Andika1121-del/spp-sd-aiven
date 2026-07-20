@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Fungsi pengecekan login bendahara (Pastikan fungsi ini ada di koneksi.php)
 if (!isset($_SESSION['level']) || $_SESSION['level'] != 'bendahara') {

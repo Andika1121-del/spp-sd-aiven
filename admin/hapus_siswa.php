@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../koneksi.php'; // <- path yang benar
+require_once __DIR__ . '/../koneksi.php';
 
 // Cek login
 if (!isset($_SESSION['login']) || $_SESSION['login'] !== true) {

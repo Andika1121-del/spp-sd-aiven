@@ -1,7 +1,7 @@
 <?php
 session_start();
 /** @var mysqli $conn */
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Fungsi untuk mengubah level menjadi label yang lebih manusiawi
 function labelLevel($level)

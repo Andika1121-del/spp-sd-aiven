@@ -2,7 +2,7 @@
 
 /** @var mysqli $conn */
 session_start();
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Cek login admin
 if (!isset($_SESSION['login']) || $_SESSION['level'] != 'admin') {

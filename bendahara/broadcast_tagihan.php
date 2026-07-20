@@ -2,7 +2,7 @@
 
 /** @var mysqli $conn */
 session_start();
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Cek session manual agar tidak ke-kick otomatis / Fatal Error
 if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'bendahara') {

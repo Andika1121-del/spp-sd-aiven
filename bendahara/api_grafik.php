@@ -2,7 +2,7 @@
 
 /** @var mysqli $conn */
 session_start();
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Perbaikan: Cek hak akses langsung via $_SESSION agar tidak memicu "Call to undefined function"
 if (!isset($_SESSION['username']) || ($_SESSION['level'] !== 'bendahara' && $_SESSION['level'] !== 'kepsek' && $_SESSION['level'] !== 'admin')) {

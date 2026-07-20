@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Cek akses
 if (!isset($_SESSION['username']) || $_SESSION['level'] !== 'bendahara') {

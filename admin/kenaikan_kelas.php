@@ -1,5 +1,5 @@
 <?php
-include '../koneksi.php';
+require_once __DIR__ . '/../koneksi.php';
 
 // Membungkam notice session jika session sudah aktif di header/sidebar
 if (session_status() === PHP_SESSION_NONE) {
